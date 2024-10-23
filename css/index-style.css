@@ -8,6 +8,15 @@ body{
     margin: 0 auto;
     padding-top: 90px;
     padding-bottom: 30px;
+    animation: ingredients;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+@keyframes ingredients {
+    0% {right: -100px;}
+    100% {right: 0;}
 }
 
 .ingredients-table{
@@ -19,6 +28,15 @@ body{
     border: 1px solid black;
     width: 50%;
     margin: 0 auto;
+    animation: instructions;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+@keyframes instructions {
+  0% {right: -1000px;}
+  100% {right: 0;}    
 }
 
 .instructions ol{
